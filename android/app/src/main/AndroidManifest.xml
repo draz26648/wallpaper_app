@@ -7,7 +7,7 @@
    <application
         android:label="wallpaper"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
 
         <provider
             android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
