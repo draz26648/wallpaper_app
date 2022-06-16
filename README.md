@@ -6,6 +6,9 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
+this application create with bloc as state management and MVVM architecture pattern 
+i use some packages in app like shared perfereces as local db and flutter downloaded to download photos
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
