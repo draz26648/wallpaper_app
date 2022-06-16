@@ -30,9 +30,11 @@ class SharedHelper {
     if (!values.contains(value)) {
       values.add(value);
       print("Saving >>> $value local >>> with key ${key.value}");
+      Fluttertoast.showToast(msg: 'Added to favorites');
     } else {
       print('already exists');
       values.remove(value);
+      Fluttertoast.showToast(msg: 'Removed from favorites');
     }
 
     _shared.setStringList(key.value, values);
